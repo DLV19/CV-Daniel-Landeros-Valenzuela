@@ -1,1 +1,19 @@
+/* App.css o index.css */
 @import "tailwindcss";
+
+/* Asegúrate que el body y html ocupen el 100% de la pantalla */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Opcional si quieres eliminar scroll */
+}
+
+/* Canvas de partículas debe estar fijo */
+canvas {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
