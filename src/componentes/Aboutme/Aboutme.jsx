@@ -1,8 +1,8 @@
 export default function Aboutme() {
   return (
     <section
-      id="Aboutme"
-      className="min-h-screen px-6 py-20 text-white bg-[#0a192f] flex flex-col items-center text-center"
+      id="aboutme"
+        className="min-h-screen px-6 py-20 text-white bg-transparent flex flex-col items-center text-center"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-2 text-orange-400">
         Sobre mí
