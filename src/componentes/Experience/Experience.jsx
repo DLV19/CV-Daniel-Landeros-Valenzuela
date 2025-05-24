@@ -15,10 +15,8 @@ export default function Experiencia() {
         "Administración de ActiveDirectory (creación de cuentasde usuarios y gestión de permisos)",
         "Administración de cuentas en workspace",
         "Soporte a usuarios."
-
-
       ],
-      logo: "/image/logo-perfect.png", // ⬅️ Logo aquí
+      logo: "/image/logo-perfect.png",
     },
     {
       empresa: "Betterware de México",
@@ -31,8 +29,8 @@ export default function Experiencia() {
         "Administración de ActiveDirectory",
         "Administración servicios de Google workspace y Microsoft office 365",
         "Resolución de incidencias mediante sistema de tickers jira software",
-        "Asignación y Configuracion de equipos de computo",
-        "Gestión de garantías y proveedoresBetterware"
+        "Asignación y Configuración de equipos de cómputo",
+        "Gestión de garantías y proveedores"
       ],
       logo: "/image/logo-better-2.png",
     },
@@ -44,7 +42,7 @@ export default function Experiencia() {
         "Cableado estructurado",
         "Mantenimiento correctivo y preventivo",
         "Atención en planta y documentación ISO",
-        "Configuración de equipo de cómputo",
+        "Configuración de equipo de cómputo"
       ],
       logo: "/image/sistema-bea.png",
     },
@@ -62,9 +60,9 @@ export default function Experiencia() {
   ];
 
   return (
-    <section id="experiencia" className="bg-[false] text-white py-20 px-6">
+    <section id="experiencia" className="bg-transparent text-white py-20 px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-orange-400 text-center mb-2">
+        <h2 className="text-3xl md:text-4xl font-bold text-orange-400 text-center mb-2 animate-pulse">
           Experiencia Laboral
         </h2>
         <div className="w-16 h-1 bg-orange-400 rounded-full mx-auto mb-10" />
@@ -73,14 +71,12 @@ export default function Experiencia() {
           {trabajos.map((trabajo, index) => (
             <div
               key={index}
-              className="bg-[#112240] p-6 rounded-lg shadow-md border-l-4 border-orange-400 hover:scale-[1.02] transition-transform duration-300"
+              className="bg-[#112240]/70 backdrop-blur-md p-6 rounded-tl-lg rounded-br-lg shadow-lg border-l-4 border-orange-400 hover:scale-[1.02] transition-transform duration-300"
             >
-              <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-orange-300">{trabajo.puesto}</h3>
-                  <p className="text-sm text-gray-400">
-                    {trabajo.empresa} • {trabajo.periodo}
-                  </p>
+                  <p className="text-sm text-gray-400">{trabajo.empresa} • {trabajo.periodo}</p>
                   <ul className="list-disc list-inside text-gray-300 mt-3 space-y-1">
                     {trabajo.descripcion.map((punto, idx) => (
                       <li key={idx}>{punto}</li>
@@ -89,7 +85,7 @@ export default function Experiencia() {
                 </div>
 
                 {/* 📸 Imagen del logo */}
-                <div className="w-50 h-50 flex-shrink-0">
+                <div className="w-28 h-28 flex-shrink-0 bg-white rounded-md p-2 shadow-inner">
                   <img
                     src={trabajo.logo}
                     alt={`Logo de ${trabajo.empresa}`}

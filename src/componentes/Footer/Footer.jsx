@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <footer className="relative z-20 bg-[#0a192f] text-gray-400 text-center py-8">
@@ -5,28 +7,28 @@ export default function Footer() {
         <p className="text-sm">
           © {new Date().getFullYear()} Danny CV. Todos los derechos reservados.
         </p>
-        <div className="mt-3 flex justify-center gap-6">
+        <div className="mt-3 flex justify-center gap-6 text-lg">
           <a
             href="https://github.com/DLV19"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-orange-400 transition-colors"
+            className="hover:text-orange-400 transition-colors flex items-center gap-2"
           >
-            GitHub
+            <FaGithub /> GitHub
           </a>
           <a
-            href="https://linkedin.com/in/tu-perfil"
+            href="https://www.linkedin.com/in/daniel-landeros-valenzuela"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-orange-400 transition-colors"
+            className="hover:text-orange-400 transition-colors flex items-center gap-2"
           >
-            LinkedIn
+            <FaLinkedin /> LinkedIn
           </a>
           <a
-            href="mailto:tuemail@dominio.com"
-            className="hover:text-orange-400 transition-colors"
+            href="mailto:daniel.landeros.valenzuela@gmail.com"
+            className="hover:text-orange-400 transition-colors flex items-center gap-2"
           >
-            Contacto
+            <FaEnvelope /> Contacto
           </a>
         </div>
       </div>

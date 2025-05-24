@@ -10,6 +10,7 @@ import Footer from './componentes/Footer/Footer';
 import Skills from './componentes/Skills/Skills';
 import Experiencia from './componentes/Experience/Experience';
 import Contact from './componentes/Contact/Contact';
+import Education from './componentes/Education/Education';
 
 function App() {
   const [count, setCount] = useState(0); // 👉 puedes quitar esto si no lo estás usando
@@ -26,8 +27,9 @@ function App() {
       <div className="z-10 relative pt-20">
         <Presentacion />     {/* 🧑‍💻 Sección de presentación */}
         <Aboutme />          {/* 📖 Sección 'Sobre mí' */}
-        <Skills />          {/* 📖 Sección 'habilidades' */}
         <Experiencia />          {/* 📖 Sección 'habilidades' */}
+        <Skills />          {/* 📖 Sección 'habilidades' */}
+        <Education />          {/* 📖 Sección 'Educacion' */}
         <Contact />          {/* 📖 Sección 'contacto' */}
       </div>
 
