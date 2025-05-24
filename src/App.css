@@ -8,8 +8,9 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Opcional si quieres eliminar scroll */
+  overflow-x: hidden; /* ✅ solo oculta scroll horizontal */
 }
+
 
 /* Canvas de partículas debe estar fijo */
 canvas {
