@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <header className="fixed w-full bg-[#0a192f] text-white shadow-md z-50">
       <nav className="flex justify-between items-center px-6 py-4">
-        <h1 className="text-xl font-bold text-orange-400">Danny CV</h1>
+        <h1 className="text-xl font-bold text-orange-400">Curriculum Web</h1>
         <ul className="flex space-x-6 text-sm uppercase">
           <li>
             <a href="#inicio" className="cursor-pointer hover:text-orange-400">
