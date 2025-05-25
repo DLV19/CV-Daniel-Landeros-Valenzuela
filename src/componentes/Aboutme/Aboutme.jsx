@@ -25,7 +25,7 @@ export default function Aboutme() {
 
         {/* 🧑‍💻 Descripción */}
         <p className="text-gray-300 text-lg leading-relaxed">
-          Soy Ingeniero en Informática con más de 8 años de experiencia en soporte técnico e infraestructura TI.
+          Soy Licenciado en Informática con más de 8 años de experiencia en soporte técnico e infraestructura TI.
           Actualmente estoy en transición hacia el desarrollo web, combinando mis conocimientos técnicos con una gran pasión por resolver problemas y crear soluciones útiles.
         </p>
 

@@ -1,9 +1,11 @@
 export default function Navbar() {
   return (
-    <header className="fixed w-full bg-[#0a192f] text-white shadow-md z-50">
+    <header className="fixed w-full bg-[#0a192f]/80 backdrop-blur-md text-white shadow-md z-50">
       <nav className="flex justify-between items-center px-6 py-4">
-        <h1 className="text-xl font-bold text-orange-400 animate-bounce ">Curriculum web</h1>
-        <ul className="flex space-x-6 text-sm uppercase">
+        <h1 className="text-xl md:text-2xl font-bold text-orange-400 tracking-wide">
+          Curriculum web
+        </h1>
+        <ul className="hidden md:flex space-x-6 text-sm uppercase tracking-wide">
           <li>
             <a href="#inicio" className="cursor-pointer hover:text-orange-400">
               Inicio
@@ -21,7 +23,7 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#educacion" className="cursor-pointer hover:text-orange-400">
-              Educación Y cursos
+              Educación y cursos
             </a>
           </li>
           <li>

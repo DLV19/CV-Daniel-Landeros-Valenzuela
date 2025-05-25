@@ -27,7 +27,7 @@ function App() {
       <div className="z-10 relative pt-20">
         <Presentacion />     {/* 🧑‍💻 Sección de presentación */}
         <Aboutme />          {/* 📖 Sección 'Sobre mí' */}
-        <Experiencia />          {/* 📖 Sección 'habilidades' */}
+        <Experiencia />          {/* 📖 Sección 'Experiencia' */}
         <Skills />          {/* 📖 Sección 'habilidades' */}
         <Education />          {/* 📖 Sección 'Educacion' */}
         <Contact />          {/* 📖 Sección 'contacto' */}

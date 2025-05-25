@@ -2,10 +2,10 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="relative z-20 bg-[#0a192f] text-gray-400 text-center py-8">
+    <footer className="relative z-20 bg-[#0a192f]/80 backdrop-blur-md text-gray-400 text-center py-8 border-t border-orange-400">
       <div className="container mx-auto px-4">
         <p className="text-sm">
-          © {new Date().getFullYear()} Danny CV. Todos los derechos reservados.
+          © {new Date().getFullYear()} Powered by DLV.
         </p>
         <div className="mt-3 flex justify-center gap-6 text-lg">
           <a
