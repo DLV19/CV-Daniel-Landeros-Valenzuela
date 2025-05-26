@@ -1,6 +1,8 @@
 /* App.css o index.css */
 @import "tailwindcss";
 
+
+
 /* Asegúrate que el body y html ocupen el 100% de la pantalla */
 html,
 body,
@@ -23,4 +25,19 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem; /* ajusta según tu navbar */
 }
+
+.custom-gradient {
+  background: linear-gradient(
+    to bottom right,
+    oklch(18% 0.07 250),
+    oklch(38% 0.09 270),
+    oklch(38% 0.12 305)
+  );
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
 

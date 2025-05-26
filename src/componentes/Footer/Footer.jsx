@@ -7,6 +7,14 @@ export default function Footer() {
         <p className="text-sm">
           © {new Date().getFullYear()} Powered by DLV.
         </p>
+        
+        {/* Logo de React + Vite */}
+        <img
+          src="/vite.svg"
+          alt="React + Vite Logo"
+          className="mx-auto mt-2 w-5 h-auto"
+        />
+
         <div className="mt-3 flex justify-center gap-6 text-lg">
           <a
             href="https://github.com/DLV19"
