@@ -11,10 +11,10 @@ export default function Experiencia() {
         "Virtualización y respaldos",
         "Soporte a usuarios y gestión con ClickUp",
         "Administración y configuración de servidores",
-        "Respaldos paquetería Contpaq Contabilidad Nóminas",
-        "Administración de ActiveDirectory (creación de cuentas de usuarios y gestión de permisos)",
-        "Administración de cuentas en workspace",
-        "Soporte a usuarios."
+        "Respaldos paquetería Contpaq Contabilidad y Nóminas",
+        "Administración de Active Directory (creación de cuentas de usuarios y gestión de permisos)",
+        "Administración de cuentas en Workspace",
+        "Soporte a usuarios"
       ],
       logo: "/image/logo-perfect.png",
     },
@@ -26,11 +26,11 @@ export default function Experiencia() {
         "Resolución de incidencias nivel 2",
         "Manejo de VMware y respaldo de datos",
         "Configuración de VPN y gestión de garantías",
-        "Administración de ActiveDirectory",
-        "Administración servicios de Google Workspace y Microsoft 365",
-        "Resolución de incidencias mediante sistema de tickets Jira Software",
+        "Administración de Active Directory",
+        "Administración de servicios de Google Workspace y Microsoft 365",
+        "Gestión de incidencias mediante sistema de tickets Jira Software",
         "Asignación y configuración de equipos de cómputo",
-        "Gestión de garantías y proveedores"
+        "Relación con proveedores y soporte de garantías"
       ],
       logo: "/image/logo-better-2.png",
     },
@@ -56,6 +56,18 @@ export default function Experiencia() {
         "Apoyo a personal administrativo"
       ],
       logo: "/image/Bios-Instala.png",
+    },
+    {
+      empresa: "Digitalife",
+      periodo: "Febrero 2018 - Agosto 2018",
+      puesto: "Técnico en Computación",
+      descripcion: [
+        "Ensamble de equipo de cómputo",
+        "Encargado de garantías",
+        "Mantenimiento correctivo y preventivo",
+        "Venta de equipo de cómputo"
+      ],
+      logo: "/image/Digitalife.png",
     }
   ];
 
