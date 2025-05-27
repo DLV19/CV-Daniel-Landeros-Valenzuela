@@ -12,7 +12,7 @@ export default function Experiencia() {
         "Soporte a usuarios y gestión con ClickUp",
         "Administración y configuración de servidores",
         "Respaldos paquetería Contpaq Contabilidad Nóminas",
-        "Administración de ActiveDirectory (creación de cuentasde usuarios y gestión de permisos)",
+        "Administración de ActiveDirectory (creación de cuentas de usuarios y gestión de permisos)",
         "Administración de cuentas en workspace",
         "Soporte a usuarios."
       ],
@@ -27,9 +27,9 @@ export default function Experiencia() {
         "Manejo de VMware y respaldo de datos",
         "Configuración de VPN y gestión de garantías",
         "Administración de ActiveDirectory",
-        "Administración servicios de Google workspace y Microsoft office 365",
-        "Resolución de incidencias mediante sistema de tickers jira software",
-        "Asignación y Configuración de equipos de cómputo",
+        "Administración servicios de Google Workspace y Microsoft 365",
+        "Resolución de incidencias mediante sistema de tickets Jira Software",
+        "Asignación y configuración de equipos de cómputo",
         "Gestión de garantías y proveedores"
       ],
       logo: "/image/logo-better-2.png",
@@ -68,9 +68,9 @@ export default function Experiencia() {
         <div className="w-16 h-1 bg-orange-400 rounded-full mx-auto mb-10" />
 
         <div className="grid gap-8">
-          {trabajos.map((trabajo, index) => (
-            <div
-              key={index}
+          {trabajos.map((trabajo) => (
+            <article
+              key={trabajo.empresa}
               className="bg-[#112240]/70 backdrop-blur-md p-6 rounded-tl-lg rounded-br-lg shadow-lg border-l-4 border-orange-400 hover:scale-[1.02] transition-transform duration-300"
             >
               <div className="flex flex-col md:flex-row justify-between items-center gap-6">
@@ -84,7 +84,6 @@ export default function Experiencia() {
                   </ul>
                 </div>
 
-                {/* 📸 Imagen del logo */}
                 <div className="w-28 h-28 flex-shrink-0 bg-white rounded-md p-2 shadow-inner">
                   <img
                     src={trabajo.logo}
@@ -93,7 +92,7 @@ export default function Experiencia() {
                   />
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

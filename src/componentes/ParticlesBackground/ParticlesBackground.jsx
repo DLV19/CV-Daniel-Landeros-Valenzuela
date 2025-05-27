@@ -8,30 +8,19 @@ export default function ParticlesBackground() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-full z-[-1] custom-gradient">
+    <div className="fixed top-0 left-0 w-full h-full -z-10 custom-gradient pointer-events-none">
       <Particles
         id="tsparticles"
         init={iniciarParticulas}
         options={{
           fullScreen: { enable: false },
-          background: {
-            color: "transparent",
-          },
+          background: { color: "transparent" },
           particles: {
-            number: {
-              value: 120,
-              density: { enable: true, area: 800 },
-            },
+            number: { value: 135, density: { enable: true, area: 800 } },
             color: { value: "#ffffff" },
             shape: { type: "circle" },
-            opacity: {
-              value: 0.3,
-              random: true,
-            },
-            size: {
-              value: 2,
-              random: true,
-            },
+            opacity: { value: 0.3, random: true },
+            size: { value: 2, random: true },
             move: {
               enable: true,
               speed: 0.6,
@@ -47,18 +36,11 @@ export default function ParticlesBackground() {
             },
           },
           interactivity: {
-            events: {
-              onHover: {
-                enable: true,
-                mode: "grab",
-              },
-            },
+            events: { onHover: { enable: true, mode: "grab" } },
             modes: {
               grab: {
                 distance: 140,
-                links: {
-                  opacity: 0.5,
-                },
+                links: { opacity: 0.5 },
               },
             },
           },

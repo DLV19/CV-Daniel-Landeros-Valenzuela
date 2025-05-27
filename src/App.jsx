@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 
 // 🧩 Componentes personalizados
@@ -13,8 +12,6 @@ import Contact from './componentes/Contact/Contact';
 import Education from './componentes/Education/Education';
 
 function App() {
-  const [count, setCount] = useState(0); // 👉 puedes quitar esto si no lo estás usando
-
   return (
     <>
       {/* ✨ Fondo animado con partículas */}
@@ -23,15 +20,15 @@ function App() {
       {/* 🚀 Barra de navegación */}
       <Navbar />
 
-      {/* 🧱 Contenido principal con z-index para que esté sobre las partículas */}
-      <div className="z-10 relative pt-20">
-        <Presentacion />     {/* 🧑‍💻 Sección de presentación */}
-        <Aboutme />          {/* 📖 Sección 'Sobre mí' */}
-        <Experiencia />          {/* 📖 Sección 'Experiencia' */}
-        <Skills />          {/* 📖 Sección 'habilidades' */}
-        <Education />          {/* 📖 Sección 'Educacion' */}
-        <Contact />          {/* 📖 Sección 'contacto' */}
-      </div>
+      {/* 🧱 Contenido principal sobre el fondo */}
+      <main className="relative z-10 pt-20">
+        <Presentacion />
+        <Aboutme />
+        <Experiencia />
+        <Skills />
+        <Education />
+        <Contact />
+      </main>
 
       {/* 🔚 Pie de página */}
       <Footer />

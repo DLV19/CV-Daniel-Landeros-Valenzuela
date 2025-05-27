@@ -1,31 +1,28 @@
-/* App.css o index.css */
 @import "tailwindcss";
 
-
-
-/* Asegúrate que el body y html ocupen el 100% de la pantalla */
+/* Layout base */
 html,
 body,
 #root {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* ✅ solo oculta scroll horizontal */
+  overflow-x: hidden;
+  font-family: 'Space Grotesk', sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
-
-/* Canvas de partículas debe estar fijo */
+/* Fondo de partículas */
 canvas {
   position: fixed !important;
   top: 0;
   left: 0;
+  z-index: -1;             /* fondo verdadero */
+  pointer-events: none;    /* no bloquea clics */
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 5rem; /* ajusta según tu navbar */
-}
-
+/* Fondo personalizado opcional */
 .custom-gradient {
   background: linear-gradient(
     to bottom right,
@@ -35,9 +32,19 @@ html {
   );
 }
 
-body {
-  font-family: 'Space Grotesk', sans-serif;
+/* Scroll personalizado (Chrome, Edge, Brave) */
+body::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
 }
 
+body::-webkit-scrollbar-thumb {
+  background-color: #f97316;
+  border-radius: 10px;
+}
 
-
+/* Scroll para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f97316 transparent;
+}

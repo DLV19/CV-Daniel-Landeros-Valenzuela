@@ -10,11 +10,13 @@ export default function Education() {
         {/* 🎓 Educación formal */}
         <div className="bg-[#112240]/70 backdrop-blur-md shadow-lg p-6 text-left border-l-4 border-orange-400 rounded-tl-lg rounded-br-lg mb-8">
           <h3 className="text-xl font-semibold text-orange-300 mb-4">Formación académica</h3>
+
           <div className="mb-6">
             <p className="text-lg font-semibold text-white">Licenciatura en Informática</p>
             <p className="text-sm text-gray-300">2010 - 2014</p>
             <p className="text-sm text-gray-400">Centro Universitario UTEG</p>
           </div>
+
           <div>
             <p className="text-lg font-semibold text-white">Licenciatura en Desarrollo Web</p>
             <p className="text-sm text-gray-300">2023 - en curso</p>

@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section id="skills" className="min-h-screen px-6 py-20 bg-[false] text-white">
+    <section id="skills" className="min-h-screen px-6 py-20 text-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-orange-400 mb-8 animate-pulse">
           Habilidades
