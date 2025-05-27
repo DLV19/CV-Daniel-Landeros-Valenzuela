@@ -16,7 +16,11 @@ export default function Aboutme() {
         </div>
 
         <p className="text-gray-300 text-lg leading-relaxed">
-          Soy Licenciado en Informática con más de 8 años de experiencia en soporte técnico e infraestructura TI...
+          Ingeniero en Informática con más de 8 años de experiencia en el área de IT,
+           especializado en soporte técnico de nivel 2 y administración de infraestructura.
+            Actualmente cursando la Licenciatura en Desarrollo Web,
+             con un fuerte interés en ampliar mi experiencia en desarrollo de software y prácticas DevOps.
+              Me destaco por mi enfoque en la resolución de problemas y mi capacidad para adaptarme rápidamente a nuevos entornos tecnológicos.
         </p>
 
         <blockquote className="italic text-orange-300 border-l-4 border-orange-400 pl-4">
