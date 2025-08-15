@@ -1,20 +1,21 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="relative z-20 bg-[#0a192f]/80 backdrop-blur-md text-gray-400 text-center py-8 border-t border-orange-400">
       <div className="container mx-auto px-4">
-
         {/* 📝 Derechos de autor */}
         <p className="text-sm">
-          © {new Date().getFullYear()} Powered by DLV.
+          © {new Date().getFullYear()} {t("footer.powered")}
         </p>
 
-        {/* 🚀 Logo de React + Vite */}
+        {/* 🚀 Logo de React + Vite (asegúrate que vite.svg esté en /public) */}
         <img
           src="/vite.svg"
-          alt="Logo de React y Vite"
-          role="img"
+          alt={t("footer.altLogo")}
           className="mx-auto mt-2 w-5 h-auto"
         />
 
@@ -25,9 +26,10 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-400 transition-colors flex items-center gap-2"
-            aria-label="Visitar GitHub de Daniel"
+            aria-label={t("footer.github")}
           >
-            <FaGithub /> GitHub
+            <FaGithub />
+            {t("footer.github")}
           </a>
 
           <a
@@ -35,20 +37,21 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-400 transition-colors flex items-center gap-2"
-            aria-label="Visitar LinkedIn de Daniel"
+            aria-label={t("footer.linkedin")}
           >
-            <FaLinkedin /> LinkedIn
+            <FaLinkedin />
+            {t("footer.linkedin")}
           </a>
 
           <a
             href="mailto:daniel.landeros.valenzuela@gmail.com"
-            aria-label="Enviar correo a Daniel"
             className="hover:text-orange-400 transition-colors flex items-center gap-2"
+            aria-label={t("footer.contact")}
           >
-            <FaEnvelope /> Contacto
+            <FaEnvelope />
+            {t("footer.contact")}
           </a>
         </div>
-        
       </div>
     </footer>
   );

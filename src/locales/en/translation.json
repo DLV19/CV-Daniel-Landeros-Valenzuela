@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "experience": "Experience",
+    "education": "Education & Courses",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hi": "Hi, I'm",
+    "name": "Daniel Landeros",
+    "role": "Level II Technical Support Engineer · Web Developer in training",
+    "tagline": "Passionate about solving problems with technology. Focused on modern web development and DevOps culture."
+  },
+  "about": {
+    "title": "About Me",
+    "bio": [
+      "Computer Engineer with over 8 years of IT experience, specializing in level 2 technical support and infrastructure administration.",
+      "Currently pursuing a Bachelor's degree in Web Development, interested in software development and DevOps practices.",
+      "Known for problem-solving skills and quick adaptability to new technological environments.",
+      "I value teamwork, continuous learning, and the use of best practices."
+    ],
+    "quote": "I love learning, building, and improving processes with technology.",
+    "stackTitle": "Current tech stack",
+    "stack": [
+      "Frontend: React, TailwindCSS, HTML, CSS, JavaScript",
+      "Backend: PHP, Python, MySQL",
+      "Infrastructure: Docker, Render, Railway, Linux"
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "logoAlt": "Logo of {{company}}",
+    "items": [
+      {
+        "id": "perfect_choice",
+        "company": "Perfect Choice",
+        "period": "May 2023 - Present",
+        "role": "Infrastructure and IT Support Engineer",
+        "points": [
+          "Network and VLAN management",
+          "Sonicwall firewall configuration",
+          "Cisco and Grandstream infrastructure",
+          "Virtualization and backups",
+          "User support and ClickUp management",
+          "Server administration and configuration",
+          "Contpaq accounting and payroll backup",
+          "Active Directory administration",
+          "Google Workspace account management",
+          "User support"
+        ]
+      },
+      {
+        "id": "betterware",
+        "company": "Betterware de México",
+        "period": "May 2021 - December 2022",
+        "role": "Technical Support Engineer",
+        "points": [
+          "Level 2 incident resolution",
+          "VMware management and data backup",
+          "VPN configuration and warranty management",
+          "Active Directory administration",
+          "Google Workspace and Microsoft 365",
+          "Incident tracking with Jira Software",
+          "Device assignment and configuration",
+          "Supplier relationship and warranty tracking"
+        ]
+      },
+      {
+        "id": "idear_electronica",
+        "company": "Idear Electrónica",
+        "period": "May 2019 - December 2021",
+        "role": "Technical Support Assistant",
+        "points": [
+          "Structured cabling",
+          "Corrective and preventive maintenance",
+          "On-site support and ISO documentation",
+          "Computer setup and configuration"
+        ]
+      },
+      {
+        "id": "bios_instala",
+        "company": "BIOS Instala 2.0",
+        "period": "August 2018 - May 2019",
+        "role": "IT Technician",
+        "points": [
+          "Computer diagnostics",
+          "Corrective and preventive maintenance",
+          "Support for administrative staff"
+        ]
+      },
+      {
+        "id": "digitalife",
+        "company": "Digitalife",
+        "period": "February 2018 - August 2018",
+        "role": "Computer Technician",
+        "points": [
+          "Computer assembly",
+          "Warranty management",
+          "Corrective and preventive maintenance",
+          "Computer sales"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "formalTitle": "Academic Background",
+    "formal": [
+      {
+        "degree": "Bachelor's in Computer Science",
+        "years": "2010 - 2014",
+        "school": "Centro Universitario UTEG"
+      },
+      {
+        "degree": "Bachelor's in Web Development",
+        "years": "2023 - Ongoing",
+        "school": "Universidad de Guadalajara"
+      }
+    ],
+    "coursesTitle": "Courses & Certifications",
+    "courses": [
+      "Python Course — Udemy, 2024",
+      "Grandstream Specialist — Network Solutions, 2023",
+      "Linux Bash Shell Scripting — Udemy, 2022",
+      "Kubernetes for IT Admins — LinkedIn Learning, 2022",
+      "DevOps with Docker — Udemy, 2022",
+      "Google Cloud Infrastructure — LinkedIn Learning, 2022",
+      "CCNA IP Networking Fundamentals — Udemy, 2021"
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "softTitle": "Soft Skills",
+    "soft": [
+      "Teamwork",
+      "Analytical thinking",
+      "Problem-solving",
+      "Adaptability",
+      "Effective communication"
+    ],
+    "techTitle": "Technologies & Tools",
+    "tech": [
+      "React, HTML, CSS, JavaScript, PHP, Python",
+      "SQL databases",
+      "Docker, Kubernetes, Linux Shell Scripting",
+      "Google Cloud, VMware, Active Directory",
+      "Contpaq, Sonicwall, Cisco, Grandstream"
+    ],
+    "langsTitle": "Languages",
+    "langs": [
+      "English Level B1 (currently studying)",
+      "Native Spanish"
+    ]
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "footer": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "contact": "Contact",
+    "powered": "Powered by DLV",
+    "altLogo": "React and Vite Logo"
+  }
+}
