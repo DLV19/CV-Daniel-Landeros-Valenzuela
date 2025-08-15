@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "education": "Educación y cursos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "hi": "Hola, soy",
+    "name": "Daniel Landeros",
+    "role": "Ingeniero en Soporte Técnico Nivel II · Desarrollador Web en formación",
+    "tagline": "Apasionado por resolver problemas con tecnología. Enfocado en desarrollo web moderno y cultura DevOps."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio": [
+      "Ingeniero en Informática con más de 8 años de experiencia en IT, especializado en soporte técnico de nivel 2 y administración de infraestructura.",
+      "Actualmente cursando la Licenciatura en Desarrollo Web, con interés en desarrollo de software y prácticas DevOps.",
+      "Me destaco por mi enfoque en la resolución de problemas y mi capacidad para adaptarme rápidamente a nuevos entornos tecnológicos.",
+      "Valoro el trabajo en equipo, el aprendizaje constante y el uso de buenas prácticas."
+    ],
+    "quote": "Me encanta aprender, construir y mejorar procesos con tecnología.",
+    "stackTitle": "Tech stack actual",
+    "stack": [
+      "Frontend: React, TailwindCSS, HTML, CSS, JavaScript",
+      "Backend: PHP, Python, MySQL",
+      "Infraestructura: Docker, Render, Railway, Linux"
+    ]
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "logoAlt": "Logo de {{company}}",
+    "items": [
+      {
+        "id": "perfect_choice",
+        "company": "Perfect Choice",
+        "period": "Mayo 2023 - Actual",
+        "role": "Ingeniero de Infraestructura y Soporte IT",
+        "points": [
+          "Administración de redes",
+          "Configuración de firewall Sonicwall",
+          "Infraestructura Cisco y Grandstream",
+          "Virtualización y respaldos",
+          "Soporte a usuarios y gestión con ClickUp",
+          "Administración y configuración de servidores",
+          "Respaldos paquetería Contpaq Contabilidad y Nóminas",
+          "Administración de Active Directory",
+          "Administración de cuentas en Google Workspace",
+          "Soporte a usuarios"
+        ]
+      },
+      {
+        "id": "betterware",
+        "company": "Betterware de México",
+        "period": "Mayo 2021 - Diciembre 2022",
+        "role": "Ingeniero de Soporte Técnico",
+        "points": [
+          "Resolución de incidencias nivel 2",
+          "Manejo de VMware y respaldo de datos",
+          "Configuración de VPN y gestión de garantías",
+          "Administración de Active Directory",
+          "Google Workspace y Microsoft 365",
+          "Gestión de incidencias con Jira Software",
+          "Asignación y configuración de equipos",
+          "Relación con proveedores y garantías"
+        ]
+      },
+      {
+        "id": "idear_electronica",
+        "company": "Idear Electrónica",
+        "period": "Mayo 2019 - Diciembre 2021",
+        "role": "Auxiliar de Soporte Técnico",
+        "points": [
+          "Cableado estructurado",
+          "Mantenimiento correctivo y preventivo",
+          "Atención en planta y documentación ISO",
+          "Configuración de equipo de cómputo"
+        ]
+      },
+      {
+        "id": "bios_instala",
+        "company": "BIOS Instala 2.0",
+        "period": "Agosto 2018 - Mayo 2019",
+        "role": "Técnico en Informática",
+        "points": [
+          "Diagnóstico de equipo de cómputo",
+          "Mantenimiento correctivo y preventivo",
+          "Apoyo a personal administrativo"
+        ]
+      },
+      {
+        "id": "digitalife",
+        "company": "Digitalife",
+        "period": "Febrero 2018 - Agosto 2018",
+        "role": "Técnico en Computación",
+        "points": [
+          "Ensamble de equipo de cómputo",
+          "Encargado de garantías",
+          "Mantenimiento correctivo y preventivo",
+          "Venta de equipo de cómputo"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "formalTitle": "Formación académica",
+    "formal": [
+      { "degree": "Licenciatura en Informática", "years": "2010 - 2014", "school": "Centro Universitario UTEG" },
+      { "degree": "Licenciatura en Desarrollo Web", "years": "2023 - en curso", "school": "Universidad de Guadalajara" }
+    ],
+    "coursesTitle": "Cursos y certificaciones",
+    "courses": [
+      "Curso Python — Udemy, 2024",
+      "Especialista Grandstream — Network Solutions, 2023",
+      "Linux Bash Shell Scripting — Udemy, 2022",
+      "Kubernetes para administradores IT — LinkedIn Learning, 2022",
+      "DevOps con Docker — Udemy, 2022",
+      "Google Cloud Infrastructure — LinkedIn Learning, 2022",
+      "CCNA Fundamentos de Networking IP — Udemy, 2021"
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "softTitle": "Habilidades blandas",
+    "soft": ["Trabajo en equipo", "Pensamiento analítico", "Resolución de problemas", "Adaptabilidad", "Comunicación efectiva"],
+    "techTitle": "Tecnologías y herramientas",
+    "tech": ["React, HTML, CSS, JavaScript, PHP, Python", "Bases de datos SQL", "Docker, Kubernetes, Linux Shell Scripting", "Google Cloud, VMware, Active Directory", "Contpaq, Sonicwall, Cisco, Grandstream"],
+    "langsTitle": "Idiomas",
+    "langs": ["Inglés Nivel B1 (actualmente en curso)", "Español Nativo"]
+  },
+  "contact": { "title": "Contacto" },
+  "footer": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "contact": "Contacto",
+    "powered": "Powered by DLV",
+    "altLogo": "Logo de React y Vite"
+  }
+}
