@@ -8,21 +8,24 @@ export default function Navbar() {
 
   const toggleMenu = () => setMenuAbierto((v) => !v);
   const cerrarMenu = () => setMenuAbierto(false);
-  const setLang = (lng) => { i18n.changeLanguage(lng); cerrarMenu(); };
+  const setLang = (lng) => {
+    i18n.changeLanguage(lng);
+    cerrarMenu();
+  };
 
   const items = [
-    { to: "#inicio",      label: t("nav.home") },
-    { to: "#aboutme",     label: t("nav.about") },
+    { to: "#inicio", label: t("nav.home") },
+    { to: "#aboutme", label: t("nav.about") },
     { to: "#experiencia", label: t("nav.experience") },
-    { to: "#educacion",   label: t("nav.education") },
-    { to: "#skills",      label: t("nav.skills") },
-    { to: "#contacto",    label: t("nav.contact") },
+    { to: "#educacion", label: t("nav.education") },
+    { to: "#skills", label: t("nav.skills") },
+    { to: "#contacto", label: t("nav.contact") },
   ];
 
   return (
     <header className="fixed w-full bg-[#0a192f]/80 backdrop-blur-md text-white shadow-md z-50">
       <nav className="flex justify-between items-center px-6 py-4">
-        {/* Hamburguesa (móvil) */}
+        {/* 🍔 Hamburguesa (móvil) */}
         <button
           className="md:hidden text-orange-400"
           onClick={toggleMenu}
@@ -31,24 +34,34 @@ export default function Navbar() {
           {menuAbierto ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        {/* Switch de idioma (desktop) */}
+        {/* 🌍 Switch de idioma (escritorio) */}
         <div className="hidden md:flex gap-2 ml-auto">
           <button
             onClick={() => setLang("es")}
-            className={`px-2 py-1 rounded ${i18n.language.startsWith("es") ? "bg-orange-400 text-[#0a192f]" : "hover:text-orange-400"}`}
+            className={`px-2 py-1 rounded text-lg ${
+              i18n.language.startsWith("es")
+                ? "bg-orange-400 text-[#0a192f]"
+                : "hover:text-orange-400"
+            }`}
+            aria-label="Cambiar a Español"
           >
-            ES
+            Español
           </button>
           <button
             onClick={() => setLang("en")}
-            className={`px-2 py-1 rounded ${i18n.language.startsWith("en") ? "bg-orange-400 text-[#0a192f]" : "hover:text-orange-400"}`}
+            className={`px-2 py-1 rounded text-lg ${
+              i18n.language.startsWith("en")
+                ? "bg-orange-400 text-[#0a192f]"
+                : "hover:text-orange-400"
+            }`}
+            aria-label="Switch to English"
           >
-            EN
+            English
           </button>
         </div>
       </nav>
 
-      {/* Menú enlaces + switch (móvil) */}
+      {/* 📱 Menú enlaces + switch (móvil) */}
       <ul
         className={`${
           menuAbierto ? "flex flex-col items-start pl-6" : "hidden"
@@ -65,10 +78,11 @@ export default function Navbar() {
             </a>
           </li>
         ))}
-        {/* Switch también en móvil */}
+
+        {/* 🌐 Switch idioma también en móvil */}
         <li className="flex gap-3 py-3 md:hidden">
-          <button onClick={() => setLang("es")} className="hover:text-orange-400">ES</button>
-          <button onClick={() => setLang("en")} className="hover:text-orange-400">EN</button>
+          <button onClick={() => setLang("es")} aria-label="Español">🇲🇽</button>
+          <button onClick={() => setLang("en")} aria-label="English">🇺🇸</button>
         </li>
       </ul>
     </header>

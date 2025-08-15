@@ -8,9 +8,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "hi": "Hi, I'm",
+    "hi": "Hi, my name is",
     "name": "Daniel Landeros",
-    "role": "Level II Technical Support Engineer · Web Developer in training",
+    "role": "Level II Tech Support Engineer & Web Developer in Progress",
     "tagline": "Passionate about solving problems with technology. Focused on modern web development and DevOps culture."
   },
   "about": {
@@ -39,7 +39,7 @@
         "period": "May 2023 - Present",
         "role": "Infrastructure and IT Support Engineer",
         "points": [
-          "Network and VLAN management",
+          "Network management",
           "Sonicwall firewall configuration",
           "Cisco and Grandstream infrastructure",
           "Virtualization and backups",
