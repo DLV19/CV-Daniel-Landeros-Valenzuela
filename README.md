@@ -1,12 +1,41 @@
-# React + Vite
+# 💼 CV - Daniel Landeros Valenzuela
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Currículum web interactivo desarrollado con **React + Vite**.  
+Incluye **modo oscuro**, **cambio de idioma (ES/EN)** y diseño **responsive**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
+👉 [Ver en línea](https://cv-daniel-landeros-valenzuela.onrender.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tecnologías
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+---
+
+## ✨ Funcionalidades
+- [x] Dark / Light Mode  
+- [x] Responsive Design  
+- [x] Cambio de idioma (Español / Inglés)  
+- [ ] SEO básico (en progreso)  
+
+---
+
+## 📦 Instalación
+
+```bash
+# Clonar el repo
+git clone https://github.com/DLV19/CV-Daniel-Landeros-Valenzuela.git
+cd CV-Daniel-Landeros-Valenzuela
+
+# Instalar dependencias
+npm install
+
+# Levantar en local
+npm run dev
