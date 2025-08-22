@@ -23,7 +23,6 @@ Incluye **modo oscuro**, **cambio de idioma (ES/EN)** y diseño **responsive**.
 - [x] Dark / Light Mode  
 - [x] Responsive Design  
 - [x] Cambio de idioma (Español / Inglés)  
-- [ ] SEO básico (en progreso)  
 
 ---
 
