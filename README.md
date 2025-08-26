@@ -19,8 +19,7 @@ Incluye **modo oscuro**, **cambio de idioma (ES/EN)** y diseño **responsive**.
 
 ---
 
-## ✨ Funcionalidades
-- [x] Dark / Light Mode  
+## ✨ Funcionalidades  
 - [x] Responsive Design  
 - [x] Cambio de idioma (Español / Inglés)  
 
