@@ -20,7 +20,7 @@ export default function Contact() {
               className="hover:text-orange-300 transition"
               aria-label={`${t("contact.phoneLabel")}: 33-21-47-02-23`}
             >
-              33-21-47-02-23
+              33-21-47-02-43
             </a>
           </div>
 
